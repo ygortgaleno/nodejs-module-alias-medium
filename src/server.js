@@ -1,4 +1,4 @@
-import './config/moduleAlias';
+import './lib/moduleAlias';
 import server from '~/App';
 
 // eslint-disable-next-line no-console

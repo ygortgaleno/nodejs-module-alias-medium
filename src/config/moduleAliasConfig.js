@@ -1,8 +1,7 @@
-import moduleAlias from 'module-alias';
 import path from 'path';
 
-moduleAlias.addAliases({
+export default {
   '~': path.join(__dirname, '..'),
   '@controllers': path.join(__dirname, '..', 'app', 'controllers'),
   '@routes': path.join(__dirname, '..', 'app', 'routes'),
-});
+};
