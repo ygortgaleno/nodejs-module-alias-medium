@@ -17,4 +17,13 @@ module.exports = {
   rules: {
     'class-methods-use-this': 'off'
   },
+  settings: {
+    'import/resolver': {
+      alias: [
+        ['~', './src'],
+        ['@controllers', './src/app/controllers'],
+        ['@routes', './src/app/routes']
+      ]
+    }
+  }
 };
