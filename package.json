@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-module-alias",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "author": "Ygor Galeno <ygor.tgaleno@gmail.com>",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygortgaleno/nodejs-module-alias-medium.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "alias-module",
+    "sucrase",
+    "root-import",
+    "eslint",
+    "eslint-import-resolver-alias"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
