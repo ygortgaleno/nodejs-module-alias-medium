@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import UserRoutes from './app/routes/UserRoutes';
+import UserRoutes from '@routes/UserRoutes';
 
 const baseRouter = Router();
 
