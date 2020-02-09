@@ -1,5 +1,5 @@
-import { Router } from 'express';
-import UserRoutes from '@routes/UserRoutes';
+const { Router } = require('express');
+const UserRoutes = require('@routes/UserRoutes');
 
 const baseRouter = Router();
 
@@ -13,4 +13,4 @@ baseRouter.use([
   UserRoutes,
 ]);
 
-export default baseRouter;
+module.exports = baseRouter;

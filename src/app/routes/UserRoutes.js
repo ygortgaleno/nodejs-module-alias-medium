@@ -1,5 +1,5 @@
-import { Router } from 'express';
-import UserController from '@controllers/UserController';
+const { Router } = require('express');
+const UserController = require('@controllers/UserController');
 
 class UserRoutes {
   constructor() {
@@ -12,4 +12,4 @@ class UserRoutes {
   }
 }
 
-export default new UserRoutes().router;
+module.exports = new UserRoutes().router;

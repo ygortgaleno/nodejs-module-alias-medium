@@ -1,4 +1,4 @@
-import moduleAlias from 'module-alias';
-import moduleAliasConfig from '../config/moduleAliasConfig';
+const moduleAlias = require('module-alias');
+const moduleAliasConfig = require('../config/moduleAliasConfig');
 
 moduleAlias.addAliases(moduleAliasConfig);

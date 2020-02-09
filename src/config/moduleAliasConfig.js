@@ -1,6 +1,6 @@
-import path from 'path';
+const path = require('path');
 
-export default {
+module.exports = {
   '~': path.join(__dirname, '..'),
   '@controllers': path.join(__dirname, '..', 'app', 'controllers'),
   '@routes': path.join(__dirname, '..', 'app', 'routes'),
