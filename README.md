@@ -1,6 +1,6 @@
 # NodeJS module alias medium
 
-This repository is a sample code from article [nodejs-module-alias-medium]()
+This repository is a sample code from article [nodejs-module-alias-medium](https://medium.com/@ygor.tgaleno/adicionando-aliases-apelidos-para-seus-m%C3%B3dulos-no-nodejs-ebfa57c3237)
 
 ## Branches
 
